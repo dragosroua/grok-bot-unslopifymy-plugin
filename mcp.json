@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "unslopifymy": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["server/index.mjs"],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "UNSLOPIFY_API_KEY": "${UNSLOPIFY_API_KEY}"
+      }
+    }
+  }
+}
