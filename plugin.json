@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "unslopifymy",
+  "description": "Rewrite text to remove AI slop via unslopifymy.ai \u2014 packs, API keys, and x402 agent payments.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dragos Roua",
+    "url": "https://dragosroua.com"
+  },
+  "homepage": "https://unslopifymy.ai",
+  "repository": "https://github.com/dragosroua/grok-bot-unslopifymy-plugin",
+  "license": "MIT",
+  "keywords": [
+    "unslop",
+    "writing",
+    "ai-slop",
+    "rewrite",
+    "x402",
+    "mcp"
+  ]
+}
